@@ -27,11 +27,11 @@ function App() {
 
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 5,
-    initialSlide: 0,
+    initialSlide: 2,
     centerMode: true,
     centerPadding: '0px',
 
@@ -333,7 +333,7 @@ function App() {
 
         <Slider {...settings} >
           <div>
-            <div class="w-full lg:w-max-xs bg-white border border-gray-200 rounded-lg shadow  ">
+            <div class="w-full lg:w-96 bg-white border border-gray-200 rounded-lg shadow  ">
               <a href="#">
                 <img class="w-full rounded-t-lg  " src={ball14lb} alt="" />
               </a>
@@ -349,7 +349,7 @@ function App() {
             </div>
           </div>
           <div>
-            <div class="w-full lg:w-max-sm bg-white border border-gray-200 rounded-lg shadow  ">
+            <div class="w-full lg:w-96 bg-white border border-gray-200 rounded-lg shadow  ">
               <a href="#">
                 <img class="w-full rounded-t-lg  " src={ball14lb} alt="" />
               </a>
@@ -365,7 +365,7 @@ function App() {
             </div>
           </div>
           <div>
-            <div class="w-full lg:w-max-sm bg-white border border-gray-200 rounded-lg shadow  ">
+            <div class="w-full lg:w-96 bg-white border border-gray-200 rounded-lg shadow  ">
               <a href="#">
                 <img class="w-full rounded-t-lg  " src={ball14lb} alt="" />
               </a>
@@ -381,9 +381,9 @@ function App() {
             </div>
           </div>
           <div>
-            <div class="w-full lg:w-max-sm bg-white border border-gray-200 rounded-lg shadow  ">
+            <div class="w-full lg:w-96 bg-white border border-gray-200 rounded-lg shadow  ">
               <a href="#">
-                <img class="w-full rounded-t-lg  " src={ball14lb} alt="" />
+                <img class="w-full rounded-t-lg" src={ball14lb} alt="" />
               </a>
               <div class="p-2 flex flex-col items-center">
                 <a href="#">
@@ -397,7 +397,7 @@ function App() {
             </div>
           </div>
           <div>
-            <div class="w-full lg:w-max-sm bg-white border border-gray-200 rounded-lg shadow  ">
+            <div class="w-full lg:w-96 bg-white border border-gray-200 rounded-lg shadow">
               <a href="#">
                 <img class="w-full rounded-t-lg  " src={ball14lb} alt="" />
               </a>
