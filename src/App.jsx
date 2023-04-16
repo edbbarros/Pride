@@ -12,7 +12,7 @@ import dollar from './assets/simbolo-do-dolar.png'
 import ball14lb from './assets/ball-14lb.jpg'
 import instagram from './assets/instagram.png'
 import Logo from './assets/logo.png'
-import LogoMarca from './assets/logo-Name.png'
+import LogoMarca from './assets/Logo-Name.png'
 import './App.css';
 
 
